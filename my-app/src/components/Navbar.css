@@ -1,0 +1,25 @@
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-everything{
+    display: flex;
+    padding: .5rem;
+}
+
+/* .navbar-div-img{
+    
+} */
+
+.myLogo-img{
+    width: 10%;
+}
