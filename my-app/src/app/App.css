@@ -1,4 +1,13 @@
-.App {
+
+
+html {
+  scroll-behavior: smooth;
+  background-color: #9CADCE;
+  /* margin: 1rem; */
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +44,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

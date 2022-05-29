@@ -1,0 +1,49 @@
+
+*{
+    box-sizing: border-box;
+}
+
+/*  Establish color variables */
+:root{
+
+}
+
+
+/* Anchor tags no styling */
+a, 
+a:hover, 
+a:focus, 
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.holds-everything{
+    margin: 1rem;
+}
+
+.holds-both-sides{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.leftside-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.rightside-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+.animate-homepage-img{
+    width: 40%;
+}
