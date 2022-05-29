@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Open+Sans:ital,wght@1,300&display=swap');
 
 *{
     box-sizing: border-box;
@@ -19,7 +21,7 @@ a:active {
 }
 
 .holds-everything{
-    margin: 1rem;
+    margin: 3.3rem;
 }
 
 .holds-both-sides{
@@ -27,6 +29,7 @@ a:active {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /* margin: 3rem; */
     width: 100%;
 }
 
@@ -36,6 +39,25 @@ a:active {
     align-items: flex-start;
     width: 50%;
 }
+
+.intro-big{
+    /* color: white; */
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3em;
+}
+
+.sub-intro-med{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.8em;
+    margin-top: -.5rem;
+}
+
+.para-text-small{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -1rem;
+    font-weight: 500;
+}
+
 
 .rightside-text{
     display: flex;
