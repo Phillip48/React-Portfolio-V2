@@ -40,24 +40,6 @@ a:active {
     width: 50%;
 }
 
-.intro-big{
-    /* color: white; */
-    font-family: 'League Spartan', sans-serif;
-    font-size: 3em;
-}
-
-.sub-intro-med{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 1.8em;
-    margin-top: -.5rem;
-}
-
-.para-text-small{
-    font-family: 'Open Sans', sans-serif;
-    margin-top: -1rem;
-    font-weight: 500;
-}
-
 
 .rightside-text{
     display: flex;

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/*  Establish variables */
+/* :root{
+
+} */
+
+
+/* Anchor tags no styling */
+a, 
+a:hover, 
+a:focus, 
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.holds-everything-technologies{
+    margin: 3.3rem;
+}
+
+.technologies-worked-display{
+    display: flex;
+    justify-content: space-evenly;
+}
