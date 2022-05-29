@@ -11,7 +11,7 @@
 
 ## Description  
 Type here...  
-[Version 1 live link]()  
+[Live link]()  
 
 ## Images  
 ![Img 1]()  
