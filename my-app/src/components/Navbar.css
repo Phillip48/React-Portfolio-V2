@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-/*  Establish color variables */
+/*  Establish variables */
 :root{
     --headerAfterScroll: #566582;
 }
