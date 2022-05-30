@@ -31,6 +31,14 @@ html {
   color: #fff;
 }
 
+.margin-side{
+  margin-left: 1rem;
+}
+
+.div-padding{
+  padding: .5rem;
+}
+
 /* .App {
   text-align: center;
 }

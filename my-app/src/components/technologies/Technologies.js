@@ -6,7 +6,7 @@ const Technologies = () => {
     return (
         <div className='holds-everything-technologies'>
             <h1 className='intro-big'>Technologies</h1>
-            <p className='para-text-small'>I've worked with...</p>
+            <p className='para-text-small margin-side'>I've worked with...</p>
             <div className='div-padding'></div>
             <div className='technologies-worked-display'>
                 <div>

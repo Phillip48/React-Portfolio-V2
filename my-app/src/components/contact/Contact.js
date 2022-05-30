@@ -14,7 +14,7 @@ const Contact = () => {
 
             <h1 className='intro-big'>Lets talk!</h1>
             <section className='holds-contact-section-row'>
-                <div className="map-wrap">
+                <div className="map-wrap margin-side">
                     <div id='map'>
                         <iframe
                             width="100%"
