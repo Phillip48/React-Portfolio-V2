@@ -23,6 +23,12 @@ a:active {
     position: sticky;
     top: 0;
     margin: 0%;
+    z-index: 1;
+}
+
+/* If needed to change header color  on scroll */
+.header-class-onscroll{
+    background-color: var(--headerAfterScroll);
 }
 
 /* Navbar classes */
