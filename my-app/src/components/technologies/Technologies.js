@@ -7,7 +7,7 @@ const Technologies = () => {
         <div className='holds-everything-technologies'>
             <h1 className='intro-big'>Technologies</h1>
             <p className='para-text-small'>I've worked with...</p>
-
+            <div className='div-padding'></div>
             <div className='technologies-worked-display'>
                 <div>
                     <h3 className='sub-intro-med'>Front-End</h3>
