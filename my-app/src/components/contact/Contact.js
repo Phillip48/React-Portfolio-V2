@@ -1,10 +1,10 @@
 import React from 'react';
-import { useRef } from 'react'
 import './Contact.css';
 // import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 // import emailjs from '@emailjs/browser'
 // Npm installed icons. just need to use
 // import { BiWorld } from "react-icons/bi";
+// import { useRef } from 'react'
 
 const Contact = () => {
 
