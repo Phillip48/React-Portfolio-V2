@@ -25,7 +25,8 @@ const Contact = () => {
                             marginHeight={0}
                             marginWidth={0}
                             style={{ filter: "opacity(0.7)" }}
-                            src="https://www.google.com/maps/embed/v1/place?q=orlando+florida&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"/>
+                            src="https://www.google.com/maps/embed/v1/place?q=32824+orlando+florida&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" 
+                        />                    
                     </div>
                 </div>
                 <div className='div-padding'></div>
@@ -37,7 +38,7 @@ const Contact = () => {
                             <label htmlFor="name" className='para-text-small-form'>
                                 <AiOutlineUser /> Name
                             </label>
-                            <input type="text" id="name" name="name" className="input-field-form"/>
+                            <input type="text" id="name" name="name" className="input-field-form" />
                         </div>
                         <div className='div-padding-contact'></div>
                         <div className="contact-form-labels">
@@ -48,14 +49,14 @@ const Contact = () => {
                                 type="email"
                                 id="email"
                                 name="email"
-                                className=""/>
+                                className="input-field-form" />
                         </div>
                         <div className='div-padding-contact'></div>
                         <div className="contact-form-labels">
                             <label htmlFor="message" className='para-text-small-form' name="Message">
                                 <AiOutlineMessage /> Message
                             </label>
-                            <textarea className="contact-form-labels-textarea"/>
+                            <textarea className="contact-form-labels-textarea input-field-form" />
                         </div>
                         <button type="submit" className="contact-form-labels-submit">
                             Submit
