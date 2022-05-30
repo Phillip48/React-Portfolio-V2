@@ -8,6 +8,7 @@
 /*  Establish variables */
 :root{
     --headerAfterScroll: #566582;
+    /* --headerAfterScrollPt2: #03e9f4; */
 }
 
 /* Anchor tags no styling */
@@ -28,7 +29,7 @@ a:active {
 
 /* If needed to change header color  on scroll */
 .header-class-onscroll{
-    background-color: var(--headerAfterScroll);
+    background-color: var();
 }
 
 /* Navbar classes */
@@ -64,6 +65,7 @@ a:active {
     padding: .5rem;
     font-family: 'League Spartan', sans-serif;
     font-size: 1.3em;
+    color: #fff;
 }
 
 /* To use with whatever part of the page the user is on. It will get highlighted in the navbar */

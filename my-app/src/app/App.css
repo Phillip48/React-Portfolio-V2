@@ -2,7 +2,8 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #9CADCE;
+  /* background-color: #9CADCE; */
+  background: linear-gradient(#141e30, #243b55);
   /* margin: 1rem; */
 }
 
@@ -12,12 +13,14 @@ html {
   /* color: white; */
   font-family: 'League Spartan', sans-serif;
   font-size: 3em;
+  color: #fff;
 }
 
 .sub-intro-med{
   font-family: 'League Spartan', sans-serif;
   font-size: 1.8em;
   margin-top: -.5rem;
+  color: #fff;
 }
 
 .para-text-small{
@@ -25,6 +28,7 @@ html {
   font-size: 1.2em;
   margin-top: -1rem;
   font-weight: 500;
+  color: #fff;
 }
 
 /* .App {

@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Open+Sans:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Open+Sans:ital,wght@1,300&display=swap");
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 /*  Establish variables */
@@ -10,28 +10,78 @@
 
 } */
 
-.holds-contact-section{
-    display: flex;
-    flex-direction: column;
-    margin: 3.3rem;
-    
+/* input:focus {
+  outline: 0;
+  border-color: #bd8200;
 }
-.holds-contact-section-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-
-.contact-form-right{
-    min-width: 50%;
+textarea:focus {
+  outline: 0;
+  border-color: #bd8200;
+} */
+.div-padding-contact{
+    padding: .3rem;
 }
 
+.holds-contact-section {
+  display: flex;
+  flex-direction: column;
+  margin: 3.3rem;
+}
+.holds-contact-section-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.contact-form-right {
+  min-width: 50%;
+}
 
+.contact-form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 85%; */
+}
 
-#map{
-    max-width: 100%;
-    border: 3px solid black;
-    height: 300px;
+.contact-form-labels {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 3rem;
+}
+
+.contact-form-labels-textarea {
+  height: 4rem;
+}
+
+.para-text-small-form {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  margin-top: -1rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.contact-form-labels-submit {
+  padding: 0.4em;
+  font: inherit;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+}
+
+#map {
+  /* width: 100%; */
+  min-width: 45rem;
+  /* max-width: 100%; */
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 3px solid black;
+  height: 300px;
 }
