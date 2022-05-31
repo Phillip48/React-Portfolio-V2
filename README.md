@@ -10,7 +10,7 @@
 -[Contributors](#Contributors)  
 
 ## Description  
-Type here...  
+Everyone needs a portfolio. Here's mine! This portfolio was made using React. 
 [Live link]()  
 
 ## Images  
