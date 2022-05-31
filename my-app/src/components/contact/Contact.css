@@ -6,12 +6,12 @@
 }
 
 /*  Establish variables */
-/* :root{
-
-} */
+:root{
+  --hoverComp: #A17423;
+}
 
 .div-padding-contact{
-    padding: .3rem;
+  padding: .3rem;
 }
 
 .holds-contact-section {
@@ -78,6 +78,10 @@
   border-radius: 6px;
   color: #fff;
   cursor: pointer;
+}
+.contact-form-labels-submit:hover{
+  border-color: var(--hoverComp);
+  background-color: var(--hoverComp);
 }
 
 .map-wrap{

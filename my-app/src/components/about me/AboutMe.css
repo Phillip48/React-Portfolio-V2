@@ -6,9 +6,9 @@
 }
 
 /*  Establish variables */
-/* :root{
-
-} */
+:root{
+    --maincolor2: #A17423
+}
 
 
 /* Anchor tags no styling */
@@ -22,6 +22,9 @@ a:active {
 
 .holds-everything{
     margin: 3.3rem;
+}
+.underline-name{
+    border-bottom: 2px solid var(--maincolor2);
 }
 
 .holds-both-sides{

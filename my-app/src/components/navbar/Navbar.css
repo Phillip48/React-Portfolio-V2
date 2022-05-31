@@ -8,6 +8,7 @@
 /*  Establish variables */
 :root{
     --headerAfterScroll: #566582;
+    --hoverComp: #A17423;
     /* --headerAfterScrollPt2: #03e9f4; */
 }
 
@@ -67,7 +68,12 @@ a:active {
     font-size: 1.3em;
     color: #fff;
 }
-
+.element-in-navbar:hover{
+    color: var(--hoverComp);
+    font-size: 200%;
+    margin: 0;
+    transition: all .4s ease-in-out;
+}
 /* To use with whatever part of the page the user is on. It will get highlighted in the navbar */
 /* .foractive-underNavbar{
     background-color: white;

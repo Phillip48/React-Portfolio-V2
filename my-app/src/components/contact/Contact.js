@@ -32,7 +32,7 @@ const Contact = () => {
                 <div className='div-padding'></div>
                 <div className='contact-form-right'>
                     <h3 className='sub-intro-med'>Contact me</h3>
-                    <p className='para-text-small'>Form here...</p>
+                    {/* <p className='para-text-small'>Form here...</p> */}
                     <form name='contact' className='contact-form-input'>
                         <div className="contact-form-labels">
                             <label htmlFor="name" className='para-text-small-form'>
