@@ -12,7 +12,7 @@ const Contact = () => {
     return (
         <section className='holds-contact-section'>
 
-            <h1 className='intro-big'>Lets talk!</h1>
+            <h1 className='intro-big' id='contact'>Lets talk!</h1>
             <section className='holds-contact-section-row'>
                 <div className="map-wrap margin-side">
                     <div id='map'>

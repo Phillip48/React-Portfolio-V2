@@ -11,10 +11,10 @@ const Navbar = () => {
                 <a href='/'><img className='myLogo-img' src={peronsalLogo} alt="Logo" /></a>
             </div>
             <navbar className='navbar-elements'>
-                <a href='/'><h4 className='element-in-navbar'>Home</h4></a>
-                <a href='/'><h4 className='element-in-navbar'>About Me</h4></a>
-                <a href='/'><h4 className='element-in-navbar'>Experience</h4></a>
-                <a href='/'><h4 className='element-in-navbar'>Contact Me</h4></a>
+                {/* <a href='/'><h4 className='element-in-navbar'>Home</h4></a> */}
+                <a href='#aboutme'><h4 className='element-in-navbar'>About Me</h4></a>
+                <a href='#experience'><h4 className='element-in-navbar'>Experience</h4></a>
+                <a href='#contact'><h4 className='element-in-navbar'>Contact Me</h4></a>
             </navbar>
         </section>
         {/*  To use with whatever part of the page the user is on. It will get highlighted in the navbar */}

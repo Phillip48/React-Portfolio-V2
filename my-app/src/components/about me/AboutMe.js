@@ -13,7 +13,7 @@ const Navbar = () => {
             {/* <Particle /> */}
             <div className='holds-everything'>
                 <section className='holds-both-sides'>
-                    <section className='leftside-text'>
+                    <section className='leftside-text 'id='aboutme'>
                         <h1 className='intro-big'>Hi! I'm <span className='underline-name'>Phillip!</span></h1>
                         <div className='type-words'>
                             <Type />
