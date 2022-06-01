@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 import './Contact.css';
 import { AiOutlineUser, AiOutlineMail, AiOutlineMessage } from 'react-icons/ai';
 // import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
@@ -11,16 +11,19 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    let message = "We'll talk soon!";
 
-    emailjs.sendForm('service_ze75w0o', 'template_89b7rnl', form.current, 'WDfEiUtjNB2Tz-vID')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_ze75w0o', 'template_89b7rnl', form.current, 'WDfEiUtjNB2Tz-vID')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        alert(message)
+    };
 
     return (
         <section className='holds-contact-section'>
@@ -38,8 +41,8 @@ const Contact = () => {
                             marginHeight={0}
                             marginWidth={0}
                             style={{ filter: "opacity(0.7)" }}
-                            src="https://www.google.com/maps/embed/v1/place?q=32824+orlando+florida&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" 
-                        />                    
+                            src="https://www.google.com/maps/embed/v1/place?q=32824+orlando+florida&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                        />
                     </div>
                 </div>
                 <div className='div-padding'></div>
@@ -51,7 +54,7 @@ const Contact = () => {
                             <label htmlFor="name" className='para-text-small-form'>
                                 <AiOutlineUser /> Name
                             </label>
-                            <input type="text" id="name" name="name" className="input-field-form" style={{ fontSize: '18px'}}/>
+                            <input type="text" id="name" name="name" className="input-field-form" style={{ fontSize: '18px' }} />
                         </div>
                         <div className='div-padding-contact'></div>
                         <div className="contact-form-labels">
@@ -63,14 +66,14 @@ const Contact = () => {
                                 id="email"
                                 name="email"
                                 className="input-field-form"
-                                style={{ fontSize: '18px'}} />
+                                style={{ fontSize: '18px' }} />
                         </div>
                         <div className='div-padding-contact'></div>
                         <div className="contact-form-labels">
                             <label htmlFor="message" className='para-text-small-form' name="Message">
                                 <AiOutlineMessage /> Message
                             </label>
-                            <textarea className="contact-form-labels-textarea input-field-form" name='message' style={{ fontSize: '18px'}}/>
+                            <textarea className="contact-form-labels-textarea input-field-form" name='message' style={{ fontSize: '18px' }} />
                         </div>
                         <button type="submit" className="contact-form-labels-submit">
                             Submit
