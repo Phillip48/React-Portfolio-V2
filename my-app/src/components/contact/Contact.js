@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import './Contact.css';
 import { AiOutlineUser, AiOutlineMail, AiOutlineMessage } from 'react-icons/ai';
 // import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
@@ -6,8 +6,21 @@ import { AiOutlineUser, AiOutlineMail, AiOutlineMessage } from 'react-icons/ai';
 // Npm installed icons. just need to use
 // import { BiWorld } from "react-icons/bi";
 // import { useRef } from 'react'
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ze75w0o', 'template_89b7rnl', form.current, 'WDfEiUtjNB2Tz-vID')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
     return (
         <section className='holds-contact-section'>
@@ -33,12 +46,12 @@ const Contact = () => {
                 <div className='contact-form-right'>
                     <h3 className='sub-intro-med'>Contact me</h3>
                     {/* <p className='para-text-small'>Form here...</p> */}
-                    <form name='contact' className='contact-form-input'>
+                    <form name='contact' className='contact-form-input' ref={form} onSubmit={sendEmail}>
                         <div className="contact-form-labels">
                             <label htmlFor="name" className='para-text-small-form'>
                                 <AiOutlineUser /> Name
                             </label>
-                            <input type="text" id="name" name="name" className="input-field-form" />
+                            <input type="text" id="name" name="name" className="input-field-form" style={{ fontSize: '18px'}}/>
                         </div>
                         <div className='div-padding-contact'></div>
                         <div className="contact-form-labels">
@@ -49,14 +62,15 @@ const Contact = () => {
                                 type="email"
                                 id="email"
                                 name="email"
-                                className="input-field-form" />
+                                className="input-field-form"
+                                style={{ fontSize: '18px'}} />
                         </div>
                         <div className='div-padding-contact'></div>
                         <div className="contact-form-labels">
                             <label htmlFor="message" className='para-text-small-form' name="Message">
                                 <AiOutlineMessage /> Message
                             </label>
-                            <textarea className="contact-form-labels-textarea input-field-form" />
+                            <textarea className="contact-form-labels-textarea input-field-form" name='message' style={{ fontSize: '18px'}}/>
                         </div>
                         <button type="submit" className="contact-form-labels-submit">
                             Submit

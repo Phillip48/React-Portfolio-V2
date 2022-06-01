@@ -41,14 +41,16 @@
   flex-direction: column;
   width: 85%;
   height: 3rem;
+  font-family: 'League Spartan', sans-serif;
 }
 
 .contact-form-labels-textarea {
-  height: 4rem;
+  height: 3rem;
   border-radius: 4px;
+
 }
 .input-field-form{
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 .para-text-small-form {
