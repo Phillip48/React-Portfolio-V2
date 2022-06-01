@@ -2,7 +2,7 @@
 import './App.css';
 import Navbar from '../components/navbar/Navbar.js';
 import AboutMe from '../components/about me/AboutMe';
-// import Technologies from '../components/technologies/Technologies';
+import Technologies from '../components/technologies/Technologies';
 import Experience from '../components/experience/Experience';
 import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <AboutMe />
       
-      {/* <Technologies /> */}
+      <Technologies />
       <Experience />
       <Contact />
       <Footer />

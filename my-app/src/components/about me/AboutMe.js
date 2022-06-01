@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
 // import Particle from '../particles/Particles';
-import Technologies from '../technologies/Technologies';
+// import Technologies from '../technologies/Technologies';
 import Type from '../typing/Type';
 // import peronsalLogo from '../image/Myproject.png';
 import peronsalLogo2 from '/Users/phill/OneDrive/Documents/Peronsal Project coding/React-Portfolio-V2/my-app/src/image/1P-logos_transparent.png';
@@ -31,7 +31,7 @@ const Navbar = () => {
                     </section>
                 </section>
             </div>
-            <Technologies />
+            {/* <Technologies /> */}
         </main>)
 }
 
