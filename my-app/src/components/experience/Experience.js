@@ -17,15 +17,14 @@ const Experience = () => {
                         <img src={travelGuide} alt='project-img' className='experience-img'></img>
                         <h3 className='sub-intro-med padding-top'>Tarvelers Guide</h3>
                         <p className='para-text-small margin-side'>Who doesn't wanna travel the world? This app allows you to see where a country is located and some information about the country. Not to mention follow other users and review the countries youve visited... and of course have a favorites list.</p>
-                        <div className=''>
-                            <img src={moviesPic} alt='project-img' className='experience-img'></img>
-                            <h3 className='sub-intro-med padding-top'>Reel Good Movies</h3>
-                            <p className='para-text-small margin-side'>Reel Good Movies is a full stack web application where a user can register an account, search in a movie database, post a review for movie, and save movies to their watched and will watch profile lists.</p>
-                        </div>
+                    </div>
+                    <div className='margin-side'>
+                        <img src={moviesPic} alt='project-img' className='experience-img'></img>
+                        <h3 className='sub-intro-med padding-top'>Reel Good Movies</h3>
+                        <p className='para-text-small margin-side'>Reel Good Movies is a full stack web application where a user can register an account, search in a movie database, post a review for movie, and save movies to their watched and will watch profile lists.</p>
                     </div>
                 </section>
                 <section className='section-right-experience'>
-
                     <div className='margin-side'>
                         <img src={routeMyDay} alt='project-img' className='experience-img'></img>
                         <h3 className='sub-intro-med padding-top'>Route My Day</h3>
