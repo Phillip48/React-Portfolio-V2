@@ -6,12 +6,15 @@ import AboutMe from '../components/about me/AboutMe';
 import Experience from '../components/experience/Experience';
 import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
+// import Particle from '../components/particles/Particles';
 
 function App() {
   return (
     <main>
+      {/* <Particle /> */}
       <Navbar />
       <AboutMe />
+      
       {/* <Technologies /> */}
       <Experience />
       <Contact />

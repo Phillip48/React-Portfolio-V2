@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
+// import Particle from '../particles/Particles';
 import Technologies from '../technologies/Technologies';
 import Type from '../typing/Type';
 // import peronsalLogo from '../image/Myproject.png';
@@ -9,6 +10,7 @@ import peronsalLogo2 from '/Users/phill/OneDrive/Documents/Peronsal Project codi
 const Navbar = () => {
     return (
         <main>
+            {/* <Particle /> */}
             <div className='holds-everything'>
                 <section className='holds-both-sides'>
                     <section className='leftside-text'>
