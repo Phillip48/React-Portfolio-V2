@@ -21,22 +21,22 @@ const Technologies = () => {
                         <div className='tech-experience'>
                             <AiOutlineHtml5 className='experience-icons' />
                         </div>
-                        <div className='div-padding'></div>
+                        
                         <div className='tech-experience'>
                             <DiCss3 className='experience-icons' />
                         </div>
-                        <div className='div-padding'></div>
+                        
                         <div className='tech-experience'>
                             <DiBootstrap className='experience-icons' />
                         </div>
-                        <div className='div-padding'></div>
+                        
                         <div className='tech-experience'>
                             <SiBulma className='experience-icons' />
                         </div>
-                        <div className='div-padding'></div>
+                        
                         <div className='tech-experience'>
                             <SiTailwindcss className='experience-icons' />
-                        </div> <div className='div-padding'></div>
+                        </div> 
                         <div className='tech-experience'>
                             <DiReact className='experience-icons' />
                         </div>
@@ -82,23 +82,23 @@ const Technologies = () => {
                         <div className='tech-experience'>
                             <SiFigma className='experience-icons' />
                         </div>
-                        <div className='div-padding'></div>
+                        
                         <div className='tech-experience'>
                             <AiFillGithub className='experience-icons' />
                         </div>
-                        <div className='div-padding'></div>
+                        
                         <div className='tech-experience'>
                             <SiPostman className='experience-icons' />
                         </div>
-                        <div className='div-padding'></div>
+                        
                         <div className='tech-experience'>
                             <FaGitAlt className='experience-icons' />
                         </div>
-                        <div className='div-padding'></div>
+                        
                         <div className='tech-experience'>
                             <DiHeroku className='experience-icons' />
                         </div>
-                        <div className='div-padding'></div>
+                        
                     </div>
 
                 </div>
