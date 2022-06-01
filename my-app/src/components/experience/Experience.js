@@ -13,7 +13,7 @@ const Experience = () => {
                         <img src='' className='experience-img'></img>
                         <h3 className='sub-intro-med padding-top'>Tarvelers Guide</h3>
                         <p className='para-text-small margin-side'>Who doesn't wanna travel the world? This app allows you to see where a country is located and some information about the country. Not to mention follow other users and review the countries youve visited... and of course have a favorites list.</p>
-                        <div className='margin-side'>
+                        <div className=''>
                             <img src='' className='experience-img'></img>
                             <h3 className='sub-intro-med padding-top'>Route My Day</h3>
                             <p className='para-text-small margin-side'>Route my day is a website that provides travelers with a service to schedule their travel routes for daily trips. This web app works by finding local business in a city of your choice and then adds them to a jQuery list to sort. Then it takes that list and makes your route using google maps.</p>
