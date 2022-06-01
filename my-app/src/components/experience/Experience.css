@@ -10,7 +10,34 @@
 
 } */
 
+.padding-top{
+    padding-top: 1rem;
+}
 
 .holds-experience-section{
     margin: 3.3rem;
+    display: flex;
+    flex-direction: column;
+}
+.holds-experience-sides{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-right-experience{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.section-left-experience{
+    width: 45%;
+}
+
+.experience-img{
+    border: 1px solid #fff;
+    height: 300px;
+    width: 100%;
 }
