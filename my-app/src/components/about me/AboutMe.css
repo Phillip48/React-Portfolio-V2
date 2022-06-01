@@ -1,56 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Open+Sans:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Open+Sans:ital,wght@1,300&display=swap");
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 /*  Establish variables */
-:root{
-    --maincolor2: #A17423
+:root {
+  --maincolor2: #a17423;
 }
-
 
 /* Anchor tags no styling */
-a, 
-a:hover, 
-a:focus, 
+a,
+a:hover,
+a:focus,
 a:active {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-.holds-everything{
-    margin: 3.3rem;
+.div-padding-aboutme{
+    padding: 1.5rem;
 }
-.underline-name{
-    border-bottom: 2px solid var(--maincolor2);
-}
-
-.holds-both-sides{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* margin: 3rem; */
-    width: 100%;
+.type-words {
+  height: 3rem;
+  width: auto;
+  font-family: "League Spartan", sans-serif;
+  font-size: 3em;
+  color: #A17423;
+  margin-left: 1rem;
 }
 
-.leftside-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 50%;
+.holds-everything {
+  margin: 3.3rem;
+}
+.underline-name {
+  border-bottom: 2px solid var(--maincolor2);
 }
 
-
-.rightside-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 45%;
+.holds-both-sides {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 3rem; */
+  width: 100%;
 }
 
-.animate-homepage-img{
-    width: 40%;
+.leftside-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.rightside-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+}
+
+.animate-homepage-img {
+  width: 40%;
 }
