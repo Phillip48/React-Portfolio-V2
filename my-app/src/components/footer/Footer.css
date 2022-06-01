@@ -4,10 +4,9 @@
 * {
   box-sizing: border-box;
 }
-:root{
-    --hoverComp: #A17423;
+:root {
+  --hoverComp: #a17423;
 }
-
 
 .margin-side-footer {
   margin-left: 4rem;
@@ -30,25 +29,26 @@
 }
 .para-text-small-footer {
   font-family: "Open Sans", sans-serif;
-  font-size: .9em;
+  font-size: 0.9em;
   margin-top: -1rem;
   font-weight: 500;
   color: #fff;
 }
 
-.footer-icons{
-    padding: .2rem;
-    font-size: 2.7rem;
-    color: white;
+.footer-icons {
+  padding: 0.2rem;
+  font-size: 2.7rem;
+  color: white;
+  transition: all 0.4s ease-in-out;
 }
-.footer-icons:hover{
-    color:var(--hoverComp);
-    font-size: 4rem;
-    margin: 0;
-    transition: all .4s ease-in-out;
+.footer-icons:hover {
+  color: var(--hoverComp);
+  /* font-size: 4rem; */
+  margin: 0;
+  transform: scale(1.4);
 }
 
-.linebreak-footer{
-    border-bottom: 1px solid var(--hoverComp);
-    width: 100%;
+.linebreak-footer {
+  border-bottom: 1px solid var(--hoverComp);
+  width: 100%;
 }

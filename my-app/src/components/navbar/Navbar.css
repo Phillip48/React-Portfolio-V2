@@ -63,16 +63,19 @@ a:active {
 }
 
 .element-in-navbar{
-    padding: .5rem;
+    padding: 1rem;
     font-family: 'League Spartan', sans-serif;
     font-size: 1.3em;
+    transition: all .4s ease-in-out;
     color: #fff;
 }
 .element-in-navbar:hover{
     color: var(--hoverComp);
-    font-size: 200%;
+    /* font-size: 200%; */
     margin: 0;
-    transition: all .4s ease-in-out;
+    transform: scale(1.4);
+    padding-bottom: .5rem;
+    border-bottom: 3px solid var(--hoverComp);
 }
 /* To use with whatever part of the page the user is on. It will get highlighted in the navbar */
 /* .foractive-underNavbar{
