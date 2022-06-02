@@ -17,6 +17,10 @@ button {
   padding-top: 1rem;
 }
 
+.margin-top{
+  margin-top: 3rem;
+}
+
 .holds-experience-section {
   margin: 3.3rem;
   display: flex;
@@ -68,6 +72,13 @@ button {
   padding: .3rem;
   font-size: 0.6em;
   font-family: 'League Spartan', sans-serif;
+}
+
+.sub-intro-med-experience{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.8em;
+  /* margin-top: -.5rem; */
+  color: #fff;
 }
 
 @media screen and (max-width: 460px) {
