@@ -16,7 +16,7 @@ const Experience = () => {
                     <div className=' one-project margin-top'>
                         <a href='https://github.com/Phillip48/country-V2'><img src={travelGuide} alt='project-img' className='experience-img'></img>
                         <h3 className='sub-intro-med-experience'>🌎 Tarvelers Guide <button className='linktosite'>Check it out!</button></h3> 
-                        <p className='para-text-small margin-side'>Who doesn't wanna travel the world? This app allows you to see where a country is located and some information about the country. Not to mention follow other users and review the countries youve visited... and of course have a favorites list.</p>
+                        <p className='para-text-small margin-side'>Who doesn't want to travel the world? This app allows you to see where a country is located and some information about the country. Not to mention follow other users and review the countries youve visited... and of course have a favorites list.</p>
                         </a>
                     </div>
                     {/* <div></div> */}
