@@ -8,7 +8,7 @@ const Navbar = () => {
     <header className='header-class'>
         <section className='navbar-everything'>
             <div className='navbar-div-img'>
-                <a href='/'><img className='myLogo-img' src={peronsalLogo} alt="Logo" /></a>
+               <img className='myLogo-img' src={peronsalLogo} alt="Logo" />
             </div>
             <navbar className='navbar-elements'>
                 {/* <a href='/'><h4 className='element-in-navbar'>Home</h4></a> */}

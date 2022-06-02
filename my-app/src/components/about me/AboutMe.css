@@ -64,3 +64,29 @@ a:active {
 .animate-homepage-img {
   width: 40%;
 }
+
+@media screen and (max-width: 700px) {
+  .holds-both-sides{
+    flex-direction: column;
+  }
+  .holds-everything{
+    margin-top: 0;
+  }
+  .sub-intro-med{
+    margin-top: 2.5rem;
+  }
+  .para-text-small{
+    margin: 0;
+  }
+  /* .type-words.type-words{
+    margin: 0;
+  } */
+  .leftside-text{
+    width: auto;
+  }
+  .rightside-text{
+    width: auto;
+    margin-top: 1.5rem;
+  }
+}
+

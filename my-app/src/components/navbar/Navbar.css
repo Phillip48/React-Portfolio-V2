@@ -85,3 +85,38 @@ a:active {
     margin-top: 0;
 } */
 
+@media screen and (max-width: 900px) {
+    .myLogo-img{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .myLogo-img{
+        width: 70%;
+    }
+    .element-in-navbar{
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 600px) {
+    .myLogo-img{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 510px) {
+    .myLogo-img{
+        width: 90%;
+        margin: auto;
+    }
+    .navbar-everything{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+/* @media screen and (max-width: 460px) {
+    .myLogo-img{
+        width: 100%;
+    }
+} */
