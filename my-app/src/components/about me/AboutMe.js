@@ -7,7 +7,7 @@ import Type from '../typing/Type';
 import peronsalLogo2 from '/Users/phill/OneDrive/Documents/Peronsal Project coding/React-Portfolio-V2/my-app/src/image/1P-logos_transparent.png';
 // import BgAnimation from '../components/BackgroundAnimation';
 
-const Navbar = () => {
+const Aboutme = () => {
     return (
         <main>
             {/* <Particle /> */}
@@ -35,4 +35,4 @@ const Navbar = () => {
         </main>)
 }
 
-export default Navbar;
+export default Aboutme;
