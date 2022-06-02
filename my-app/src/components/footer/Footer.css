@@ -52,3 +52,15 @@
   border-bottom: 1px solid var(--hoverComp);
   width: 100%;
 }
+
+@media screen and (max-width: 520px) {
+  .footer-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-responsive{
+    display: flex;
+    align-items: center;
+  }
+}
