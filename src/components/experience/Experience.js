@@ -2,9 +2,9 @@ import React from 'react';
 import './Experience.css';
 // Npm installed icons. just need to use
 // import { BiWorld } from "react-icons/bi";
-import routeMyDay from '/Users/phill/OneDrive/Documents/Peronsal Project coding/React-Portfolio-V2/my-app/src/image/project1mapmyroute.png';
-import travelGuide from '/Users/phill/OneDrive/Documents/Peronsal Project coding/React-Portfolio-V2/my-app/src/image/travelGuide.jpg';
-import moviesPic from '/Users/phill/OneDrive/Documents/Peronsal Project coding/React-Portfolio-V2/my-app/src/image/moviesPic.png';
+import routeMyDay from '/Users/phill/OneDrive/Documents/Peronsal Project coding/React-Portfolio-V2/src/image/project1mapmyroute.png';
+import travelGuide from '/Users/phill/OneDrive/Documents/Peronsal Project coding/React-Portfolio-V2/src/image/travelGuide.jpg';
+import moviesPic from '/Users/phill/OneDrive/Documents/Peronsal Project coding/React-Portfolio-V2/src/image/moviesPic.png';
 
 
 const Experience = () => {

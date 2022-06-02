@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 // import peronsalLogo from '../image/Myproject.png';
-import peronsalLogo from '/Users/phill/OneDrive/Documents/Peronsal Project coding/React-Portfolio-V2/my-app/src/image/1Phillip Pereira-logos_transparent.png';
+import peronsalLogo from '/Users/phill/OneDrive/Documents/Peronsal Project coding/React-Portfolio-V2/src/image/1Phillip Pereira-logos_transparent.png';
 
 const Navbar = () => {
     return (
