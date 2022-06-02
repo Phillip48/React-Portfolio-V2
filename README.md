@@ -10,8 +10,8 @@
 -[Contributors](#Contributors)  
 
 ## Description  
-Everyone needs a portfolio. Here's mine! This portfolio was made using React. 
-[Live link]()  
+Everyone needs a portfolio. Here's mine! This portfolio was made using React.   
+[Live link](https://phillip48.github.io/React-Portfolio-V2/)  
 
 ## Images  
 ![Img 1]()  
